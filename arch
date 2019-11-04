@@ -1,0 +1,33 @@
+Minimum: 
+	base linux linux-firmware net-tools man-db man-pages texinfo coreutils progress sudo bat (filesystem syslinux dosfstools btrfs-progs) base-devel dhcpcd networkmanager wifi-menu fish tmux ranger mosh git arch-install-scripts bzip2 pigz fisher nano ntfs-3g plymouth  refind-efi  wpa_supplicant ntp bash-completion
+
+cmd tools:
+	photorec ddrescue lynis feh
+
+Services: 
+	avahi samba ufw(firewall) gnome-keyring libsecret libgnome-keyring synergy cups numlockx systemd-swap
+
+Fonts:
+	ttf-fira-code ttf-fira-sans ttf-ms-fonts ttf-opensans
+
+GTK: 
+	tilix geary gnome-calculator gnome-calendar gnome-color-manager gnome-disk-utility gnome-font-viewer gnome-screenshot gnome-system-monitor gnome-schedule gnome-screenruler gdmap
+
+Apps: 
+	gitahead aegisub audacious thunar(bulk rename) clamtk-gnome(antivirus) gufw(firewall gui) fontforge gparted inkscape krita libreoffice plantuml rclone-browser(sync-client) radiotray-ng(radio) smplayer lutris mkvtoolnix-gui meld(diff tool) obs-studio pidgin seahorse virt-manager xed xpdf kitty libreoffice-extension-languagetool libreoffice-extension-linguist hardinfo libreoffice-extension-pagination libreoffice-fresh-en-gb mp3gain-gui pidgin-otr wine quemu-arch-extra
+
+Latex: 
+	texmaker texlive-core texlive-bibtexextra biber
+
+AUR: 
+	dotgit trizen nano-syntax-highlighting-git balena-etcher selektor lightdm-slick-greeter marktext-bin postman-bin spotify sublime-text3 color-picker-git deluge-git dropbox easymp3gain-gtk2 hplip-plugin lightdm-settings masterpdfeditor numix-circle-icon-theme-git numix-cursor-theme numix-folders-git numix-gtk-theme-git pamac-aur pencil pidgin-encryption pidgin-gnome-keyring posy-cursors purple-facebook purple-discord-git purple-gnome-keyring realvnc-vnc-viewer samsung-unified-driver signal-desktop-bin spotify system-config-samba teams-for-linux telegram-purple vmware-workstation yed youtube-dl-gui-git
+
+Cinnamon: 
+	mint-themes mint-sounds minx-x-icons mint-y-icons system-config-printer blueberry mintlocale
+
+File-manager: 
+	gvfs-goa gvfs-afc gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-smb apk-thumbnailer ffmpegthumbnailer nemo-dropbox nemo-fileroller nemo-media-columns nemo-pastebin nemo-share nem-seahorse
+
+
+Android: 
+	android-sdk android-sdk-build-tools android-udev
