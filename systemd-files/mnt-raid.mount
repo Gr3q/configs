@@ -1,0 +1,14 @@
+[Unit]
+  Description=Raid cifs mount script
+  Requires=network-online.target
+  After=network-online.service
+
+[Mount]
+  What=//192.168.0.50/raid
+  Where=/mnt/raid
+  Options=username=gr3q,password=Greg456578,domain=WORKGROUP,gid=disk,file_mode=0770,dir_mode=0775
+  Type=cifs
+
+[Install]
+  WantedBy=multi-user.target
+
